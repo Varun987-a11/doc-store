@@ -8,7 +8,7 @@ function App() {
     fetch("http://localhost:5000/api/test")
       .then(res => res.json())
       .then(data => {
-        setMessage(data.message)
+        setMessage(data.message)  
       })
   },[])
 
