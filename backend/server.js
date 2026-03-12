@@ -12,7 +12,7 @@ app.get("/", (req,res)=>{
 app.get("/api/test", (req,res)=>{
    res.json({
       message: "Doc-Store API working"
-   })
+   }) 
 })
 
 app.listen(5500, ()=>{
