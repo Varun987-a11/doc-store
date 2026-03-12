@@ -17,7 +17,8 @@ function App() {
       <h1>Doc-Store</h1> 
       <p>{message}</p>
     </div>
-  )  
+ 
+)  
 }
   
 export default App
